@@ -27,15 +27,15 @@ function App() {
         <div className="grid grid-cols-3 py-12 px-14 gap-6 my-4  bg-slate-600 opacity-50">
           <div className="flex flex-col px-12 items-center">
             <Printer className="cursor-pointer" color="white" size={60} />
-            <p className="text-white text-center text-[19px]">Printers</p>
+            <p className="p-style">Printers</p>
           </div>
           <div className="flex flex-col items-center">
             <Monitor className="cursor-pointer" color="white" size={60} />
-            <p className="text-white text-center text-[19px]">Monitors</p>
+            <p className="p-style">Monitors</p>
           </div>{" "}
           <div className="flex flex-col items-center">
             <Headset className="cursor-pointer" color="white" size={60} />
-            <p className="text-white text-center text-[19px]">Headsets</p>
+            <p className="p-style">Headsets</p>
           </div>{" "}
           <div className="flex flex-col items-center">
             <LucideCloudUpload
@@ -43,33 +43,21 @@ function App() {
               color="white"
               size={60}
             />
-            <p className="text-white text-center text-[19px]">Storage</p>
+            <p className="p-style">Storage</p>
           </div>{" "}
           <div className="flex flex-col items-center">
             <Microchip className="cursor-pointer" color="white" size={60} />
-            <p className="text-white text-center text-[19px]">Processors</p>
+            <p className="p-style">Processors</p>
           </div>{" "}
           <div className="flex flex-col items-center ">
             <Mouse className="cursor-pointer" color="white" size={60} />
-            <p className="text-white text-center text-[19px]">Mouse</p>
+            <p className="p-style">Mouse</p>
           </div>{" "}
         </div>
         <div className="flex gap-6">
-          <Instagram
-            className="hover:scale-125 transition duration-[0.5s] cursor-pointer"
-            color="white"
-            size={30}
-          />
-          <Facebook
-            className="hover:scale-125 transition duration-[0.5s] cursor-pointer"
-            color="white"
-            size={30}
-          />
-          <Twitter
-            className="hover:scale-125 transition duration-[0.5s] cursor-pointer"
-            color="white"
-            size={30}
-          />
+          <Instagram className=".icon-style" color="white" size={30} />
+          <Facebook className=".icon-style" color="white" size={30} />
+          <Twitter className=".icon-style" color="white" size={30} />
         </div>
       </div>
     </div>

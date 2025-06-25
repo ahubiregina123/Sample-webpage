@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .p-style {
+    @apply text-white text-center text-[19px];
+  }
+
+  .icon-style {
+    @apply hover:scale-125 transition duration-[0.5s] cursor-pointer;
+  }
+
+  .sub-div-style {
+    @apply flex flex-col items-center;
+  }
+}
